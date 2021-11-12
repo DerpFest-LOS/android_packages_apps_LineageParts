@@ -15,7 +15,6 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.lineageparts.contributors.ContributorsCloudFragment;
 import org.lineageos.lineageparts.gestures.TouchscreenGestureSettings;
 import org.lineageos.lineageparts.input.ButtonSettings;
 
@@ -40,9 +39,6 @@ public class BootReceiver extends BroadcastReceiver {
         ButtonSettings.restoreKeyDisabler(ctx);
         ButtonSettings.restoreKeySwapper(ctx);
         TouchscreenGestureSettings.restoreTouchscreenGestureStates(ctx);
-
-        // Extract the contributors database
-        ContributorsCloudFragment.extractContributorsCloudDatabase(ctx);
     }
 
     private boolean hasRestoredTunable(Context context) {
