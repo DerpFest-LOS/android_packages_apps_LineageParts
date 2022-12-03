@@ -73,6 +73,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private String mRearCameraId;
     private boolean mTorchEnabled;
+    private boolean mInPocket;
 
     private final BroadcastReceiver mUpdateReceiver = new BroadcastReceiver() {
         @Override
@@ -141,9 +142,11 @@ public class KeyHandler implements DeviceKeyHandler {
         }
     }
 
+    @Override
     public KeyEvent handleKeyEvent(final KeyEvent event) {
         final int action = mActionMapping.get(event.getScanCode(), -1);
-        if (action < 0 || event.getAction() != KeyEvent.ACTION_UP || !hasSetupCompleted()) {
+        if (action < 0 || event.getAction() != KeyEvent.ACTION_UP || !hasSetupCompleted()
+             || mInPocket) {
             return event;
         }
 
@@ -163,6 +166,11 @@ public class KeyHandler implements DeviceKeyHandler {
         }
 
         return null;
+    }
+
+    @Override
+    public void onPocketStateChanged(boolean inPocket) {
+        mInPocket = inPocket;
     }
 
     private boolean hasSetupCompleted() {
