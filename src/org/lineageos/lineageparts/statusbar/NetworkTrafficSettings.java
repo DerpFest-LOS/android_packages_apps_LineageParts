@@ -49,10 +49,8 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
         final ContentResolver resolver = getActivity().getContentResolver();
 
         mNetTraffic = findPreference(LineageSettings.Secure.NETWORK_TRAFFIC_MODE);
-        mNetTraffic.setOnPreferenceChangeListener(this);
 
         mNetTrafficAutohide = findPreference(LineageSettings.Secure.NETWORK_TRAFFIC_AUTOHIDE);
-        mNetTrafficAutohide.setOnPreferenceChangeListener(this);
 
         mNetTrafficUnits = findPreference(LineageSettings.Secure.NETWORK_TRAFFIC_UNITS);
         mNetTrafficUnits.setOnPreferenceChangeListener(this);
