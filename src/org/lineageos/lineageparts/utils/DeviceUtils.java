@@ -1,6 +1,6 @@
 /*
  * SPDX-FileCopyrightText: 2016 The CyanogenMod project
- * SPDX-FileCopyrightText: 2017-2023 The LineageOS project
+ * SPDX-FileCopyrightText: 2017-2025 The LineageOS project
  * SPDX-License-Identifier: Apache-2.0
  */
 package org.lineageos.lineageparts.utils;
@@ -268,14 +268,6 @@ public class DeviceUtils {
         TelephonyManager telephonyManager = context.getSystemService(TelephonyManager.class);
         int subId = SubscriptionManager.getDefaultDataSubscriptionId();
         return telephonyManager.createForSubscriptionId(subId).isDataEnabled();
-    }
-
-    public static boolean isSwipeUpEnabled(Context context) {
-        if (isEdgeToEdgeEnabled(context)) {
-            return false;
-        }
-        return NAV_BAR_MODE_2BUTTON == context.getResources().getInteger(
-                com.android.internal.R.integer.config_navBarInteractionMode);
     }
 
     public static boolean isEdgeToEdgeEnabled(Context context) {
