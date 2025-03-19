@@ -57,8 +57,6 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
         int units = LineageSettings.Secure.getInt(resolver,
                 LineageSettings.Secure.NETWORK_TRAFFIC_UNITS, /* Mbps */ 1);
         mNetTrafficUnits.setValue(String.valueOf(units));
-
-        updateForClockConflicts();
     }
 
     @Override
@@ -77,20 +75,5 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
     private void updateEnabledStates(boolean enabled) {
         mNetTrafficAutohide.setEnabled(enabled);
         mNetTrafficUnits.setEnabled(enabled);
-    }
-
-    private void updateForClockConflicts() {
-        int clockPosition = LineageSettings.System.getInt(getActivity().getContentResolver(),
-                STATUS_BAR_CLOCK_STYLE, 2);
-
-        if (clockPosition != 1) {
-            return;
-        }
-
-        mNetTraffic.setEnabled(false);
-        Toast.makeText(getActivity(),
-                R.string.network_traffic_disabled_clock,
-                Toast.LENGTH_LONG).show();
-        updateEnabledStates(false);
     }
 }
