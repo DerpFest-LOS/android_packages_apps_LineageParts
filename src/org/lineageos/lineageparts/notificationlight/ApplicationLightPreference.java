@@ -22,9 +22,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.preference.PreferenceViewHolder;
 
 import org.lineageos.internal.notification.LightsCapabilities;
+import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.notificationlight.LightSettingsDialog.OnOffType;
 import org.lineageos.lineageparts.widget.CustomDialogPreference;
-import org.lineageos.lineageparts.R;
 
 public class ApplicationLightPreference extends CustomDialogPreference<LightSettingsDialog>
         implements View.OnLongClickListener {

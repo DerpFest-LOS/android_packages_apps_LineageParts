@@ -6,6 +6,8 @@
 
 package org.lineageos.lineageparts.input;
 
+import static org.lineageos.internal.util.PowerMenuConstants.*;
+
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.UserInfo;
@@ -22,16 +24,14 @@ import androidx.preference.PreferenceCategory;
 import com.android.internal.util.EmergencyAffordanceManager;
 import com.android.settingslib.applications.ServiceListing;
 
+import lineageos.app.LineageGlobalActions;
+
 import org.lineageos.internal.util.PowerMenuConstants;
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;
 import org.lineageos.lineageparts.utils.TelephonyUtils;
 
 import java.util.List;
-
-import lineageos.app.LineageGlobalActions;
-
-import static org.lineageos.internal.util.PowerMenuConstants.*;
 
 public class PowerMenuActions extends SettingsPreferenceFragment {
     final static String TAG = "PowerMenuActions";

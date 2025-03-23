@@ -5,23 +5,6 @@
  */
 package org.lineageos.lineageparts.search;
 
-import android.database.Cursor;
-import android.database.MatrixCursor;
-import android.provider.SearchIndexablesProvider;
-import android.util.ArraySet;
-import android.util.Log;
-
-import lineageos.preference.PartInfo;
-import lineageos.preference.PartsList;
-
-import org.lineageos.lineageparts.search.Searchable.SearchIndexProvider;
-import org.lineageos.platform.internal.R;
-
-import java.lang.reflect.Field;
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
-
 import static android.provider.SearchIndexablesContract.COLUMN_INDEX_NON_INDEXABLE_KEYS_KEY_VALUE;
 import static android.provider.SearchIndexablesContract.COLUMN_INDEX_RAW_CLASS_NAME;
 import static android.provider.SearchIndexablesContract.COLUMN_INDEX_RAW_ENTRIES;
@@ -51,6 +34,23 @@ import static android.provider.SearchIndexablesContract.INDEXABLES_XML_RES_COLUM
 import static android.provider.SearchIndexablesContract.NON_INDEXABLES_KEYS_COLUMNS;
 
 import static lineageos.preference.PartsList.LINEAGEPARTS_ACTIVITY;
+
+import android.database.Cursor;
+import android.database.MatrixCursor;
+import android.provider.SearchIndexablesProvider;
+import android.util.ArraySet;
+import android.util.Log;
+
+import lineageos.preference.PartInfo;
+import lineageos.preference.PartsList;
+
+import org.lineageos.lineageparts.search.Searchable.SearchIndexProvider;
+import org.lineageos.platform.internal.R;
+
+import java.lang.reflect.Field;
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
 
 /**
  * Provides search metadata to the Settings app

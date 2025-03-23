@@ -22,16 +22,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import androidx.annotation.NonNull;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import lineageos.preference.SettingsHelper;
 
 import org.lineageos.lineageparts.widget.CustomDialogPreference;
 import org.lineageos.lineageparts.widget.DialogCreatable;
@@ -40,8 +42,6 @@ import org.lineageos.lineageparts.widget.LayoutPreference;
 
 import java.util.Arrays;
 import java.util.UUID;
-
-import lineageos.preference.SettingsHelper;
 
 /**
  * Base class for Settings fragments, with some helper functions and dialog management.

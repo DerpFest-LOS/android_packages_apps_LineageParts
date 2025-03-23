@@ -20,11 +20,10 @@ import androidx.annotation.NonNull;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
 import lineageos.app.Profile;
-import lineageos.app.ProfileManager;
 
+import org.lineageos.lineageparts.PartsActivity;
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;
-import org.lineageos.lineageparts.PartsActivity;
 import org.lineageos.lineageparts.profiles.triggers.NfcTriggerFragment;
 import org.lineageos.lineageparts.widget.RtlCompatibleViewPager;
 import org.lineageos.lineageparts.widget.SlidingTabLayout;

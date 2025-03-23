@@ -7,9 +7,9 @@ package org.lineageos.lineageparts.profiles.actions.item;
 
 import android.content.Context;
 
-import org.lineageos.lineageparts.R;
-
 import lineageos.profiles.AirplaneModeSettings;
+
+import org.lineageos.lineageparts.R;
 
 public class AirplaneModeItem extends Item {
     private final AirplaneModeSettings mSettings;

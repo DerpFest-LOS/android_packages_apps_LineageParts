@@ -7,13 +7,16 @@
 package org.lineageos.lineageparts.input;
 
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_3BUTTON_OVERLAY;
-import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
+
+import static com.android.systemui.shared.recents.utilities.Utilities.isLargeScreen;
+
+import static org.lineageos.internal.util.DeviceKeysConstants.*;
 
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.om.IOverlayManager;
 import android.content.res.Resources;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -34,7 +37,8 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreferenceCompat;
 
-import static com.android.systemui.shared.recents.utilities.Utilities.isLargeScreen;
+import lineageos.hardware.LineageHardwareManager;
+import lineageos.providers.LineageSettings;
 
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;
@@ -43,15 +47,10 @@ import org.lineageos.lineageparts.search.Searchable;
 import org.lineageos.lineageparts.utils.DeviceUtils;
 import org.lineageos.lineageparts.utils.TelephonyUtils;
 
-import static org.lineageos.internal.util.DeviceKeysConstants.*;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
-
-import lineageos.hardware.LineageHardwareManager;
-import lineageos.providers.LineageSettings;
 
 public class ButtonSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener, Searchable {

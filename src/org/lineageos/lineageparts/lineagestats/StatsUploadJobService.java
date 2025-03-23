@@ -14,9 +14,10 @@ import android.os.Looper;
 import android.os.PersistableBundle;
 import android.util.ArrayMap;
 import android.util.Log;
-import org.lineageos.lineageparts.R;
+
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.lineageos.lineageparts.R;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;

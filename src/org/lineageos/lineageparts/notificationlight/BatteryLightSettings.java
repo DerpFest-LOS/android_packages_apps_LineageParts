@@ -19,16 +19,16 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 
+import lineageos.preference.LineageSystemSettingMainSwitchPreference;
+import lineageos.preference.LineageSystemSettingSwitchPreference;
+import lineageos.providers.LineageSettings;
+
 import org.lineageos.internal.notification.LightsCapabilities;
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;
 import org.lineageos.lineageparts.notificationlight.LightSettingsDialog.OnOffType;
 import org.lineageos.lineageparts.search.BaseSearchIndexProvider;
 import org.lineageos.lineageparts.search.Searchable;
-
-import lineageos.preference.LineageSystemSettingMainSwitchPreference;
-import lineageos.preference.LineageSystemSettingSwitchPreference;
-import lineageos.providers.LineageSettings;
 
 import java.util.Set;
 

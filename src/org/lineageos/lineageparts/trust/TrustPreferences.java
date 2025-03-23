@@ -16,12 +16,12 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.SwitchPreferenceCompat;
 
-import org.lineageos.lineageparts.R;
-import org.lineageos.lineageparts.SettingsPreferenceFragment;
-
 import lineageos.preference.LineageGlobalSettingListPreference;
 import lineageos.providers.LineageSettings;
 import lineageos.trust.TrustInterface;
+
+import org.lineageos.lineageparts.R;
+import org.lineageos.lineageparts.SettingsPreferenceFragment;
 
 public class TrustPreferences extends SettingsPreferenceFragment {
     private static final String TAG = "TrustPreferences";

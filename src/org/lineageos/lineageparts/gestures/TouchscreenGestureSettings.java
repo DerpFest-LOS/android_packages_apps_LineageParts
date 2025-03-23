@@ -25,7 +25,6 @@ import org.lineageos.lineageparts.search.BaseSearchIndexProvider;
 import org.lineageos.lineageparts.search.Searchable;
 import org.lineageos.lineageparts.utils.ResourceUtils;
 
-import java.lang.System;
 import java.util.Set;
 
 public class TouchscreenGestureSettings extends SettingsPreferenceFragment

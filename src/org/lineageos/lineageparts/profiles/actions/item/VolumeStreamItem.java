@@ -8,9 +8,9 @@ package org.lineageos.lineageparts.profiles.actions.item;
 import android.content.Context;
 import android.media.AudioManager;
 
-import org.lineageos.lineageparts.R;
-
 import lineageos.profiles.StreamSettings;
+
+import org.lineageos.lineageparts.R;
 
 public class VolumeStreamItem extends Item {
     private final int mStreamId;

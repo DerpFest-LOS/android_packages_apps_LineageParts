@@ -7,9 +7,9 @@ package org.lineageos.lineageparts.profiles.actions.item;
 
 import android.content.Context;
 
-import org.lineageos.lineageparts.R;
-
 import lineageos.profiles.ConnectionSettings;
+
+import org.lineageos.lineageparts.R;
 
 public class ConnectionOverrideItem extends Item {
     private final ConnectionSettings mConnectionSettings;

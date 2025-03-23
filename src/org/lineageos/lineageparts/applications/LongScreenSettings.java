@@ -25,6 +25,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 
 import com.android.settingslib.applications.ApplicationsState;
+
 import com.google.android.material.materialswitch.MaterialSwitch;
 
 import org.lineageos.internal.applications.LongScreen;

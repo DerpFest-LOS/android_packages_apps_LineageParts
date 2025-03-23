@@ -7,9 +7,9 @@ package org.lineageos.lineageparts.profiles.actions.item;
 
 import android.content.Context;
 
-import org.lineageos.lineageparts.R;
-
 import lineageos.profiles.RingModeSettings;
+
+import org.lineageos.lineageparts.R;
 
 public class RingModeItem extends Item {
     private final RingModeSettings mSettings;

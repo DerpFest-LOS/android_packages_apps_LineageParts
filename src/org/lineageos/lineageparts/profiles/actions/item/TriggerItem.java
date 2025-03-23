@@ -7,11 +7,11 @@ package org.lineageos.lineageparts.profiles.actions.item;
 
 import android.content.Context;
 
+import lineageos.app.Profile;
+
 import org.lineageos.lineageparts.R;
 
 import java.util.ArrayList;
-
-import lineageos.app.Profile;
 
 public class TriggerItem extends Item {
     // from Profile.TriggerType

@@ -6,6 +6,14 @@
 
 package org.lineageos.lineageparts.profiles;
 
+import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_BLUETOOTH;
+import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_LOCATION;
+import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_MOBILEDATA;
+import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_NFC;
+import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_SYNC;
+import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_WIFI;
+import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_WIFIAP;
+
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
@@ -22,10 +30,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.provider.Settings;
-
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -41,7 +45,10 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import lineageos.app.Profile;
 import lineageos.app.ProfileManager;
@@ -52,8 +59,8 @@ import lineageos.profiles.LockSettings;
 import lineageos.profiles.RingModeSettings;
 import lineageos.profiles.StreamSettings;
 
-import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.PartsActivity;
+import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;
 import org.lineageos.lineageparts.profiles.actions.ItemListAdapter;
 import org.lineageos.lineageparts.profiles.actions.item.AirplaneModeItem;
@@ -75,14 +82,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_BLUETOOTH;
-import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_LOCATION;
-import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_MOBILEDATA;
-import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_NFC;
-import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_SYNC;
-import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_WIFI;
-import static lineageos.profiles.ConnectionSettings.PROFILE_CONNECTION_WIFIAP;
 
 public class SetupActionsFragment extends SettingsPreferenceFragment
         implements ItemListAdapter.OnItemClickListener {

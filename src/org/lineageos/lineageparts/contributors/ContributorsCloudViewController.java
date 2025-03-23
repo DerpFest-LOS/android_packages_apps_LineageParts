@@ -7,6 +7,10 @@
 
 package org.lineageos.lineageparts.contributors;
 
+import static android.view.MotionEvent.ACTION_CANCEL;
+import static android.view.MotionEvent.ACTION_DOWN;
+import static android.view.MotionEvent.ACTION_UP;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Matrix;
@@ -17,9 +21,9 @@ import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
+import android.view.ScaleGestureDetector.OnScaleGestureListener;
 import android.view.VelocityTracker;
 import android.view.View;
-import android.view.ScaleGestureDetector.OnScaleGestureListener;
 import android.view.ViewConfiguration;
 import android.view.ViewParent;
 import android.view.ViewTreeObserver;
@@ -30,10 +34,6 @@ import android.widget.ImageView.ScaleType;
 import android.widget.OverScroller;
 
 import java.lang.ref.WeakReference;
-
-import static android.view.MotionEvent.ACTION_CANCEL;
-import static android.view.MotionEvent.ACTION_DOWN;
-import static android.view.MotionEvent.ACTION_UP;
 
 public class ContributorsCloudViewController implements View.OnTouchListener,
         ViewTreeObserver.OnGlobalLayoutListener {

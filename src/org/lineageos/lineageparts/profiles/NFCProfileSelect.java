@@ -6,8 +6,6 @@
 
 package org.lineageos.lineageparts.profiles;
 
-import java.util.UUID;
-
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -19,6 +17,8 @@ import lineageos.app.Profile;
 import lineageos.app.ProfileManager;
 
 import org.lineageos.lineageparts.R;
+
+import java.util.UUID;
 
 /**
  * Activity to support attaching a unknown NFC tag to an existing profile.

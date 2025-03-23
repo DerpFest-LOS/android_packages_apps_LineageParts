@@ -5,21 +5,20 @@
  */
 package org.lineageos.lineageparts;
 
+import static lineageos.preference.PartsList.EXTRA_PART;
+import static lineageos.preference.RemotePreference.EXTRA_KEY;
+import static lineageos.preference.RemotePreference.EXTRA_SUMMARY;
+
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 
 import lineageos.preference.PartInfo;
 import lineageos.preference.PartsList;
-
-import java.lang.reflect.Field;
-
 import lineageos.preference.RemotePreferenceUpdater;
 import lineageos.preference.SettingsHelper;
 
-import static lineageos.preference.PartsList.EXTRA_PART;
-import static lineageos.preference.RemotePreference.EXTRA_KEY;
-import static lineageos.preference.RemotePreference.EXTRA_SUMMARY;
+import java.lang.reflect.Field;
 
 /**
  * PartsRefresher keeps remote UI clients up to date with any changes in the

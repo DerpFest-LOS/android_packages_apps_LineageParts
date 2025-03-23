@@ -16,11 +16,12 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.google.android.collect.Lists;
+
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.profiles.triggers.BluetoothTriggerFragment;
 import org.lineageos.lineageparts.profiles.triggers.NfcTriggerFragment;
 import org.lineageos.lineageparts.profiles.triggers.WifiTriggerFragment;
-import com.google.android.collect.Lists;
 
 import java.lang.ref.WeakReference;
 import java.util.List;

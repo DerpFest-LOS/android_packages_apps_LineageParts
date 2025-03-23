@@ -5,8 +5,9 @@
  */
 package org.lineageos.lineageparts.utils;
 
-import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_2BUTTON;
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL;
+
+import static org.lineageos.internal.util.DeviceKeysConstants.*;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothManager;
@@ -23,16 +24,14 @@ import android.hardware.camera2.CameraManager;
 import android.nfc.NfcAdapter;
 import android.os.Build;
 import android.os.SystemProperties;
-import android.telephony.TelephonyManager;
 import android.telephony.SubscriptionManager;
+import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.view.Display;
 import android.view.DisplayCutout;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import android.view.Surface;
-
-import static org.lineageos.internal.util.DeviceKeysConstants.*;
 
 import androidx.annotation.NonNull;
 

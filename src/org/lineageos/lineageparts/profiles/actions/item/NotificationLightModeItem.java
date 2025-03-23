@@ -7,9 +7,9 @@ package org.lineageos.lineageparts.profiles.actions.item;
 
 import android.content.Context;
 
-import org.lineageos.lineageparts.R;
-
 import lineageos.app.Profile;
+
+import org.lineageos.lineageparts.R;
 
 public class NotificationLightModeItem extends Item {
     private final Profile mProfile;

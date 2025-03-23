@@ -6,8 +6,6 @@
 
 package org.lineageos.lineageparts.profiles;
 
-import java.util.UUID;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,6 +21,8 @@ import lineageos.app.ProfileManager;
 import lineageos.providers.LineageSettings;
 
 import org.lineageos.lineageparts.R;
+
+import java.util.UUID;
 
 /**
  * This activity handles NDEF_DISCOVERED intents with the "lineage/profile" mime type.

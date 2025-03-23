@@ -24,8 +24,8 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.preference.PreferenceViewHolder;
 
 import org.lineageos.internal.notification.LineageNotification;
-import org.lineageos.lineageparts.widget.CustomDialogPreference;
 import org.lineageos.lineageparts.R;
+import org.lineageos.lineageparts.widget.CustomDialogPreference;
 
 public class BrightnessPreference extends CustomDialogPreference<AlertDialog>
         implements SeekBar.OnSeekBarChangeListener {

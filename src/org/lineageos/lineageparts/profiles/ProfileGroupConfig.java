@@ -6,8 +6,6 @@
 
 package org.lineageos.lineageparts.profiles;
 
-import java.util.UUID;
-
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -21,6 +19,8 @@ import lineageos.app.ProfileManager;
 
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;
+
+import java.util.UUID;
 
 public class ProfileGroupConfig extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {

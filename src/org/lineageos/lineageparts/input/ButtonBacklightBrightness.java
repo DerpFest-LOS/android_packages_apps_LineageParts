@@ -24,11 +24,11 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.PreferenceManager;
 
+import lineageos.providers.LineageSettings;
+
+import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.utils.DeviceUtils;
 import org.lineageos.lineageparts.widget.CustomDialogPreference;
-import org.lineageos.lineageparts.R;
-
-import lineageos.providers.LineageSettings;
 
 public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialog> implements
         SeekBar.OnSeekBarChangeListener {

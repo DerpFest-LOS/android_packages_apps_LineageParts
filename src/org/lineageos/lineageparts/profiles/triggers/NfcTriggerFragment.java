@@ -22,8 +22,8 @@ import androidx.fragment.app.Fragment;
 
 import lineageos.app.Profile;
 
-import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.PartsActivity;
+import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.profiles.NFCProfileTagCallback;
 import org.lineageos.lineageparts.profiles.NFCProfileUtils;
 import org.lineageos.lineageparts.profiles.ProfilesSettings;

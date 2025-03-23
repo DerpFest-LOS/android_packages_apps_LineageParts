@@ -18,14 +18,14 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import org.lineageos.lineageparts.widget.CustomDialogPreference;
-import org.lineageos.lineageparts.widget.IntervalSeekBar;
-import org.lineageos.lineageparts.R;
-
-import java.util.List;
-
 import lineageos.hardware.HSIC;
 import lineageos.hardware.LiveDisplayManager;
+
+import org.lineageos.lineageparts.R;
+import org.lineageos.lineageparts.widget.CustomDialogPreference;
+import org.lineageos.lineageparts.widget.IntervalSeekBar;
+
+import java.util.List;
 
 /**
  * Special preference type that allows configuration of Color settings

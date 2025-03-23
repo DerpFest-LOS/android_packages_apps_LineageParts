@@ -26,13 +26,18 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 
+import lineageos.preference.LineageSystemSettingSwitchPreference;
+import lineageos.preference.SystemSettingMainSwitchPreference;
+import lineageos.providers.LineageSettings;
+import lineageos.util.ColorUtils;
+
 import org.lineageos.internal.notification.LightsCapabilities;
+import org.lineageos.lineageparts.R;
+import org.lineageos.lineageparts.SettingsPreferenceFragment;
 import org.lineageos.lineageparts.search.BaseSearchIndexProvider;
 import org.lineageos.lineageparts.search.Searchable;
 import org.lineageos.lineageparts.widget.PackageListAdapter;
 import org.lineageos.lineageparts.widget.PackageListAdapter.PackageItem;
-import org.lineageos.lineageparts.R;
-import org.lineageos.lineageparts.SettingsPreferenceFragment;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -40,11 +45,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-import lineageos.preference.LineageSystemSettingSwitchPreference;
-import lineageos.preference.SystemSettingMainSwitchPreference;
-import lineageos.providers.LineageSettings;
-import lineageos.util.ColorUtils;
 
 public class NotificationLightSettings extends SettingsPreferenceFragment implements
         ApplicationLightPreference.ItemLongClickListener, Preference.OnPreferenceChangeListener,

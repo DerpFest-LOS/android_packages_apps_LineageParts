@@ -31,15 +31,15 @@ import androidx.preference.PreferenceScreen;
 
 import com.android.settingslib.widget.MainSwitchBar;
 
+import lineageos.app.Profile;
+import lineageos.app.ProfileManager;
+import lineageos.providers.LineageSettings;
+
 import org.lineageos.lineageparts.PartsActivity;
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;
 
 import java.util.UUID;
-
-import lineageos.app.Profile;
-import lineageos.app.ProfileManager;
-import lineageos.providers.LineageSettings;
 
 public class ProfilesSettings extends SettingsPreferenceFragment
         implements CompoundButton.OnCheckedChangeListener, Preference.OnPreferenceChangeListener {

@@ -18,12 +18,12 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import org.lineageos.lineageparts.widget.CustomDialogPreference;
-import org.lineageos.lineageparts.R;
-import org.lineageos.internal.util.MathUtils;
-
 import lineageos.hardware.LiveDisplayConfig;
 import lineageos.hardware.LiveDisplayManager;
+
+import org.lineageos.internal.util.MathUtils;
+import org.lineageos.lineageparts.R;
+import org.lineageos.lineageparts.widget.CustomDialogPreference;
 
 /**
  * Preference for selection of color temperature range for LiveDisplay
