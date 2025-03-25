@@ -674,9 +674,10 @@ public class ButtonSettings extends SettingsPreferenceFragment
         }
     }
 
-    private static void writeDisableNavkeysOption(Context context, boolean enabled) {
-        LineageSettings.System.putIntForUser(context.getContentResolver(),
+    private void writeDisableNavkeysOption(boolean enabled) {
+        LineageSettings.System.putIntForUser(requireActivity().getContentResolver(),
                 LineageSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0, UserHandle.USER_CURRENT);
+        mHardware.set(LineageHardwareManager.FEATURE_KEY_DISABLE, enabled);
     }
 
     private void updateDisableNavkeysOption() {
@@ -783,7 +784,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
         boolean enabled = LineageSettings.System.getIntForUser(context.getContentResolver(),
                 LineageSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
 
-        writeDisableNavkeysOption(context, enabled);
+        final LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+        hardware.set(LineageHardwareManager.FEATURE_KEY_DISABLE, enabled);
     }
 
     public static void restoreKeySwapper(Context context) {
@@ -829,7 +831,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
             if (!mDisableNavigationKeys.isChecked()) {
                 setButtonNavigationMode(NAV_BAR_MODE_3BUTTON_OVERLAY);
             }
-            writeDisableNavkeysOption(requireActivity(), mDisableNavigationKeys.isChecked());
+            writeDisableNavkeysOption(mDisableNavigationKeys.isChecked());
             updateDisableNavkeysOption();
             updateDisableNavkeysCategories(true, false);
             mHandler.postDelayed(() -> {
