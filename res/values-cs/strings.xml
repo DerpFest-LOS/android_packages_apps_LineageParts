@@ -207,8 +207,6 @@
     <string name="navigation_bar_invert_layout_title">Převrátit rozložení</string>
     <string name="navigation_bar_invert_layout_summary">Převrátí rozložení navigačního panelu a\u00a0dalších položek, jako např.\u00a0přepínače metody vstupu (IME)</string>
     <string name="navigation_bar_left_summary">Při natočení na šířku umístit navigační lištu na levé straně obrazovky</string>
-    <string name="navigation_bar_arrow_keys_title">Zobrazit navigační šipky při psaní</string>
-    <string name="navigation_bar_arrow_keys_summary">Zobrazit levý a pravý kurzor při psaní. Potlačí IME přepínač.</string>
     <string name="navigation_bar_back_long_press_title">Akce dlouhého stisku tlačítka „Zpět“</string>
     <string name="navigation_bar_home_long_press_title">Akce dlouhého stisku tlačítka „Domů“</string>
     <string name="navigation_bar_home_double_tap_title">Akce dvojitého stisku tlačítka „Domů“</string>

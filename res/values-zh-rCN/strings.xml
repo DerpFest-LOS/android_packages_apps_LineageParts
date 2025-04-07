@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">反转布局</string>
     <string name="navigation_bar_invert_layout_summary">反转导航栏和其他项目（如输入法切换器）的布局</string>
     <string name="navigation_bar_left_summary">横屏时在屏幕左侧显示导航栏</string>
-    <string name="navigation_bar_arrow_keys_title">键入时显示方向键</string>
-    <string name="navigation_bar_arrow_keys_summary">键入时显示左右光标按钮而不显示输入法选择器。</string>
     <string name="navigation_bar_back_long_press_title">返回键长按行为</string>
     <string name="navigation_bar_home_long_press_title">Home 键的长按操作</string>
     <string name="navigation_bar_home_double_tap_title">Home 键双击行为</string>

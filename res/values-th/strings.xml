@@ -184,8 +184,6 @@
     <string name="navigation_bar_category">แถบนำทาง</string>
     <string name="navigation_bar_invert_layout_title">สลับรูปแบบ</string>
     <string name="navigation_bar_left_summary">ให้แถบนำทางไปอยู่ด้านซ้ายจอเมื่ออยู่ในรูปแบบแนวนอน</string>
-    <string name="navigation_bar_arrow_keys_title">แสดงปุ่มลูกศรขณะพิมพ์</string>
-    <string name="navigation_bar_arrow_keys_summary">แสดงปุ่มเลื่อนเคอร์เซอร์ซ้ายขวาขณะพิมพ์ แทนที่ปุ่มสลับแป้นพิมพ์</string>
     <string name="navigation_bar_back_long_press_title">เมื่อกดปุ่มย้อนหลังค้าง</string>
     <string name="navigation_bar_home_long_press_title">เมื่อกดปุ่มโฮมค้าง</string>
     <string name="navigation_bar_home_double_tap_title">เมื่อกดปุ่มโฮม2ครั้ง</string>

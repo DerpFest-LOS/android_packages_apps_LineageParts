@@ -191,8 +191,6 @@
     <string name="navigation_bar_invert_layout_title">Tionndaidh air ais an co-dhealbhachd</string>
     <string name="navigation_bar_invert_layout_summary">Nì seo ais-thionndadh air co-dhealbhachd bàr na seòladaireachd agus nithean eile mar suidsear nan IME</string>
     <string name="navigation_bar_left_summary">Cuir bàr na seòladaireachd ri taobh clì na sgrìn sa mhodh dreach-tìre</string>
-    <string name="navigation_bar_arrow_keys_title">Seall iuchraichean saighde rè sgrìobhaidh</string>
-    <string name="navigation_bar_arrow_keys_summary">Seall putanan cùrsair clì is deas fhad ’s a tha mi a’ sgrìobhadh. Tar-àithnidh seo suidsear IME.</string>
     <string name="navigation_bar_back_long_press_title">Gnìomh a’ bhrùthaidh fhaide</string>
     <string name="navigation_bar_home_long_press_title">Gnìomh brùthaidh fhaide air “Dachaigh”</string>
     <string name="navigation_bar_home_double_tap_title">Gnìomh gnogaige dùbailte air “Dachaigh”</string>

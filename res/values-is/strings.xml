@@ -198,8 +198,6 @@
     <string name="navigation_bar_invert_layout_title">Umsnúa framsetningu</string>
     <string name="navigation_bar_invert_layout_summary">Umsnýr framsetningu á flakkstiku og öðrum atriðum, svo sem IME-skiptinum</string>
     <string name="navigation_bar_left_summary">Setja leiðsagnarstiku á vinstri hlið skjásins þegar hann er í láréttum ham</string>
-    <string name="navigation_bar_arrow_keys_title">Sýna örvalykla á meðan skrifað er</string>
-    <string name="navigation_bar_arrow_keys_summary">Birta vinstri og hægri bendilhnappa á meðan skrifað er. Rétthærra en IME-skiptirinn.</string>
     <string name="navigation_bar_back_long_press_title">Aðgerð þegar ýtt er lengi á \'Til baka\'-hnapp</string>
     <string name="navigation_bar_home_long_press_title">Aðgerð þegar ýtt er lengi á heimaskjá</string>
     <string name="navigation_bar_home_double_tap_title">Aðgerð við tvíbank á heimaskjá</string>

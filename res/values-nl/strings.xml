@@ -207,8 +207,6 @@
     <string name="navigation_bar_invert_layout_title">Omgekeerde lay-out</string>
     <string name="navigation_bar_invert_layout_summary">Keert de navigatiebalk en andere zaken, zoals de IME-schakelaar, om</string>
     <string name="navigation_bar_left_summary">Navigatiebalk aan de linkerkant van het scherm weergeven in liggende stand</string>
-    <string name="navigation_bar_arrow_keys_title">Pijltjestoetsen tijdens typen</string>
-    <string name="navigation_bar_arrow_keys_summary">Cursor links en rechts weergeven tijdens typen. Verbergt invoermethodepictogram.</string>
     <string name="navigation_bar_back_long_press_title">Actie terug-knop bij lang ingedrukt houden</string>
     <string name="navigation_bar_home_long_press_title">Thuisknop lang indrukken</string>
     <string name="navigation_bar_home_double_tap_title">Thuisknop twee keer indrukken</string>

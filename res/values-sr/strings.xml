@@ -177,8 +177,6 @@
     <string name="navigation_bar_category">Навигациона трака</string>
     <string name="navigation_bar_invert_layout_title">Обрни распоред</string>
     <string name="navigation_bar_left_summary">Поставља навигациону траку слева у водоравном режиму.</string>
-    <string name="navigation_bar_arrow_keys_title">Стрелице при уносу текста</string>
-    <string name="navigation_bar_arrow_keys_summary">Приказује дугмад за померање курсора улево или удесно при уносу текста. Дугме за промену метода уноса неће бити приказано.</string>
     <string name="navigation_bar_home_long_press_title">Дуги притисак на дугме „Почетна“</string>
     <string name="navigation_bar_home_double_tap_title">Двоструки додир дугмета „Почетна“</string>
     <string name="navigation_bar_app_switch_long_press_title">Акција на дуги притисак дугмета „скорашње“</string>

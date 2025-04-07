@@ -167,8 +167,6 @@
     <string name="disable_navkeys_summary">Aktiverer navigasjonsfelt på skjermen og deaktiverer de fysiske knappene</string>
     <string name="navigation_bar_category">Navigasjonsfelt</string>
     <string name="navigation_bar_left_summary">Plasser navigasjonsfeltet til venstre på skjermen i liggende modus</string>
-    <string name="navigation_bar_arrow_keys_title">Vis piltastene mens du skriver</string>
-    <string name="navigation_bar_arrow_keys_summary">Vise venstre og høyre markørknapper mens du skriver. Overstyrer IME skifter.</string>
     <string name="navigation_bar_home_long_press_title">Hjem langt trykk handling</string>
     <string name="navigation_bar_home_double_tap_title">Hjem dobbelttrykk handling</string>
     <string name="power_menu_title">Av/På meny</string>

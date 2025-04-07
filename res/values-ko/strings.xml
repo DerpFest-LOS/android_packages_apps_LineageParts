@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">레이아웃 반전</string>
     <string name="navigation_bar_invert_layout_summary">내비게이션 바 및 입력기 전환 등 기타 항목의 레이아웃을 반전시킵니다.</string>
     <string name="navigation_bar_left_summary">화면 가로 모드에서 화면의 왼쪽에 내비게이션 바를 배치</string>
-    <string name="navigation_bar_arrow_keys_title">입력 도중 화살표 키 표시</string>
-    <string name="navigation_bar_arrow_keys_summary">입력 시 좌우 커서 버튼을 표시합니다. 입력기 전환기보다 우선합니다.</string>
     <string name="navigation_bar_back_long_press_title">뒤로 가기 버튼을 길게 누를 때 동작</string>
     <string name="navigation_bar_home_long_press_title">홈 버튼을 길게 누를 시 동작 설정</string>
     <string name="navigation_bar_home_double_tap_title">홈 버튼을 두 번 누를 시 동작 설정</string>

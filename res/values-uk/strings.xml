@@ -177,8 +177,6 @@
     <string name="navigation_bar_invert_layout_title">Зворотний порядок кнопок</string>
     <string name="navigation_bar_invert_layout_summary">Інвертує композицію панелі навігації та, наприклад, перемикача способу введення</string>
     <string name="navigation_bar_left_summary">Показувати панель навігації зліва в альбомній орієнтації</string>
-    <string name="navigation_bar_arrow_keys_title">Показувати стрілки під час введення тексту</string>
-    <string name="navigation_bar_arrow_keys_summary">Показувати кнопки переміщення курсору вліво або вправо при введенні. Кнопка вибору методу введення не буде відображатися.</string>
     <string name="navigation_bar_back_long_press_title">Затиснення «Назад»</string>
     <string name="navigation_bar_home_long_press_title">Затиснення «Додому»</string>
     <string name="navigation_bar_home_double_tap_title">Дія при подвійному натисканні на кнопку \"Додому\"</string>

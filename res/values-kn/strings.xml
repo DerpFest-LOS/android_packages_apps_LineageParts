@@ -174,8 +174,6 @@
     <string name="disable_navkeys_summary">ಪರದೆ ಸಂಚರಣೆಪಟ್ಟಿ ಸಶಕ್ತಿಸಿ, ಯಂತ್ರಾಂಶ ಗುಂಡಿಗಳನ್ನು ಅಶಕ್ತಿಸು</string>
     <string name="navigation_bar_category">ಸಂಚರಣಾ ಪಟ್ಟಿ</string>
     <string name="navigation_bar_left_summary">ನೆಲಗಾಣ್ಕೆ ರೀತಿಯಲ್ಲಿ, ಸಂಚರಣಾ ಪಟ್ಟಿಯನ್ನು ಪರದೆಯ ಎಡಬದಿಯಲ್ಲಿಡು</string>
-    <string name="navigation_bar_arrow_keys_title">ಬೆರಳಚ್ಚುವಾಗ ಬಾಣಕೀಲಿಗಳನ್ನು ಪ್ರದರ್ಶಿಸು</string>
-    <string name="navigation_bar_arrow_keys_summary">IME ಪತ್ತುಕ ನಿರ್ಲಕ್ಷಿಸಿ, ಬೆರಳಚ್ಚುವಾಗ ಎಡ-ಬಲ ಕೀಲಿಗಳನ್ನು ಪ್ರದರ್ಶಿಸು.</string>
     <string name="navigation_bar_home_long_press_title">ತವರು ದೀರ್ಘವತ್ತು ಕ್ರಿಯೆ</string>
     <string name="navigation_bar_home_double_tap_title">ತವರು ಜೋಡಿವತ್ತು ಕ್ರಿಯೆ</string>
     <string name="navigation_bar_app_switch_long_press_title">ಇತ್ತೀಚಿನವು ದೀರ್ಘವತ್ತು ಕ್ರಿಯೆ</string>

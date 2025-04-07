@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">E anasjellta e ndërfaqes</string>
     <string name="navigation_bar_invert_layout_summary">Përmbys planin e shiritit të navigimit dhe sende të tjera, të tilla si ndërruesi IME</string>
     <string name="navigation_bar_left_summary">Vendos shiritin e lundrimit në anën e majtë të ekranit kur ai është i kthyer horizontalisht</string>
-    <string name="navigation_bar_arrow_keys_title">Trego butonat e shigjetave gjatë kohës që shkruan</string>
-    <string name="navigation_bar_arrow_keys_summary">Shfaq butonat e kursorit të majtë dhe të djathtë gjatë kohës që shkruan. Ky opsion shpërfill çelësin IME.</string>
     <string name="navigation_bar_back_long_press_title">Veprim i shtypjes gjatë të opsionit Mbrapa</string>
     <string name="navigation_bar_home_long_press_title">Veprimi kur mban shtypur butonin Home</string>
     <string name="navigation_bar_home_double_tap_title">Shtypja dy herë e butonit Home</string>

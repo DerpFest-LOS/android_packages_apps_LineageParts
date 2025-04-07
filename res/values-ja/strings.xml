@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">レイアウトを反転</string>
     <string name="navigation_bar_invert_layout_summary">ナビゲーションバーや IME の変更などのその他の項目のレイアウトを反転させます</string>
     <string name="navigation_bar_left_summary">横画面モードでナビゲーションバーを画面の左側に配置する</string>
-    <string name="navigation_bar_arrow_keys_title">入力中は矢印キーを表示</string>
-    <string name="navigation_bar_arrow_keys_summary">入力中は左右の矢印ボタンを表示します。IMEの切り替えアイコンは無効になります。</string>
     <string name="navigation_bar_back_long_press_title">戻るボタン長押しの動作</string>
     <string name="navigation_bar_home_long_press_title">ホームボタン長押しの動作</string>
     <string name="navigation_bar_home_double_tap_title">ホームボタンのダブルタップの動作</string>

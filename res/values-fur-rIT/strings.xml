@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">Invertìs disposizion</string>
     <string name="navigation_bar_invert_layout_summary">Al invertìs la disposizion de sbare di navigazion e altris elements, come il comutadôr IME</string>
     <string name="navigation_bar_left_summary">Place la sbare di navigazion a çampe se il dispositîf al è voltât par orizontâl</string>
-    <string name="navigation_bar_arrow_keys_title">Mostre lis frecis intant che tu scrivis</string>
-    <string name="navigation_bar_arrow_keys_summary">Mostre i botons di çampe e di diestre dal cursôr intant che tu scrivis. Al plate il comutadôr di imission.</string>
     <string name="navigation_bar_back_long_press_title">Azion di pression sprolungjade di Indaûr</string>
     <string name="navigation_bar_home_long_press_title">Azion di pression sprolungjade di Inizi</string>
     <string name="navigation_bar_home_double_tap_title">Azion di dople tocjade di Inizi</string>

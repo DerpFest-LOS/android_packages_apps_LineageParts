@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">چینش معکوس</string>
     <string name="navigation_bar_invert_layout_summary">طرح نوار پیمایش و سایر موارد ، مانند کلید روش ورودی معکوس می‌کند</string>
     <string name="navigation_bar_left_summary">قراردادن نوار ناوبری حالت افقی در سمت چپ صفحه</string>
-    <string name="navigation_bar_arrow_keys_title">نمایش کلیدهای جهت‌دار هنگام نوشتن</string>
-    <string name="navigation_bar_arrow_keys_summary">نمایش دکمه‌های مکان‌نمای چپ و راست هنگام نوشتن. جایگزین تغییر روش ورودی می شود.</string>
     <string name="navigation_bar_back_long_press_title">عملکرد ضربه طولانی کلید برگشت</string>
     <string name="navigation_bar_home_long_press_title">عملکرد فشار طولانی دکمه خانه</string>
     <string name="navigation_bar_home_double_tap_title">عمل دوبار ضربه روی دکمه خانه</string>

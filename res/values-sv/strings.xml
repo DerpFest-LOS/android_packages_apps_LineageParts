@@ -206,8 +206,6 @@
     <string name="navigation_bar_invert_layout_title">Invertera layout</string>
     <string name="navigation_bar_invert_layout_summary">Inverterar utformningen för navigeringsfältet och andra föremål, som till exempel IME-växlaren</string>
     <string name="navigation_bar_left_summary">Placera navigeringsfältet på vänster sida av skärmen i landskapsläge</string>
-    <string name="navigation_bar_arrow_keys_title">Visa piltangenterna under tiden du skriver</string>
-    <string name="navigation_bar_arrow_keys_summary">Visa vänster och höger piltangent under tiden du skriver. Åsidosätter inmatningsmetodsväxlaren.</string>
     <string name="navigation_bar_home_long_press_title">Åtgärd för långtryck på hemknappen</string>
     <string name="navigation_bar_home_double_tap_title">Åtgärd för dubbeltryck på hemknappen</string>
     <string name="navigation_bar_app_switch_long_press_title">Åtgärd för långtryck på senasteknappen</string>

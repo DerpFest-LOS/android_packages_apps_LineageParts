@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">Invertir barra de navegación</string>
     <string name="navigation_bar_invert_layout_summary">Invierte la disposición de la barra de navegación y otros elementos como el conmutador IME</string>
     <string name="navigation_bar_left_summary">Situar la barra de navegación a la izquierda de la pantalla en el modo horizontal</string>
-    <string name="navigation_bar_arrow_keys_title">Mostrar flechas al escribir</string>
-    <string name="navigation_bar_arrow_keys_summary">Mostrar los cursores izquierda y derecha durante la escritura. Modifica al selector IME.</string>
     <string name="navigation_bar_back_long_press_title">Acción de pulsación larga en botón Atrás</string>
     <string name="navigation_bar_home_long_press_title">Acción de pulsación larga en Inicio</string>
     <string name="navigation_bar_home_double_tap_title">Acción de doble toque en Inicio</string>

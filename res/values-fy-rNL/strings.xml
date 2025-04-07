@@ -179,8 +179,6 @@
     <string name="navigation_bar_category">Navigaasjebalke</string>
     <string name="navigation_bar_invert_layout_title">Layout omkeare</string>
     <string name="navigation_bar_left_summary">Navigaasjebalke oan de linkerkant fan it skerm toane yn lizzende stân</string>
-    <string name="navigation_bar_arrow_keys_title">Pylkstoetsen wylst typen toane</string>
-    <string name="navigation_bar_arrow_keys_summary">Kursor links en rjochts toane wylst typen. Ferstopje ynfiermetoadepiktogram.</string>
     <string name="navigation_bar_home_long_press_title">Thúsknop lang yndrukke</string>
     <string name="navigation_bar_home_double_tap_title">Thúsknop twa kear yndrukke</string>
     <string name="navigation_bar_app_switch_long_press_title">Resinte apps-knop lang yndrukke</string>

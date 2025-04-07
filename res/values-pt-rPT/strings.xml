@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">Inverter disposição</string>
     <string name="navigation_bar_invert_layout_summary">Inverte o esquema da barra de navegação e outros itens, como o seletor de IME</string>
     <string name="navigation_bar_left_summary">Coloca a barra de navegação no lado esquerdo do ecrã, quando estiver no modo paisagem</string>
-    <string name="navigation_bar_arrow_keys_title">Mostrar teclas de seta enquanto escreve</string>
-    <string name="navigation_bar_arrow_keys_summary">Mostrar os botões de cursor para a esquerda e para a direita enquanto escreve. Sobrepõe-se à definição do teclado.</string>
     <string name="navigation_bar_back_long_press_title">Pressão longa no botão voltar</string>
     <string name="navigation_bar_home_long_press_title">Ação de pressão longa no botão de Página Inicial</string>
     <string name="navigation_bar_home_double_tap_title">Toque duplo</string>

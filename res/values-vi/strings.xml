@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">Đảo ngược bố cục</string>
     <string name="navigation_bar_invert_layout_summary">Đảo ngược bố cục của thanh điều hướng và các mục khác, chẳng hạn như trình chuyển đổi IME</string>
     <string name="navigation_bar_left_summary">Đặt thanh điều hướng bên trái màn hình ở chế độ ngang</string>
-    <string name="navigation_bar_arrow_keys_title">Hiển thị phím mũi tên trong khi nhập liệu</string>
-    <string name="navigation_bar_arrow_keys_summary">Hiển thị các nút con trỏ bên trái và bên phải khi nhập liệu. Ghi đè bộ chuyển IME.</string>
     <string name="navigation_bar_back_long_press_title">Thao tác nhấn giữ phím quay lại</string>
     <string name="navigation_bar_home_long_press_title">Hành động khi nhấn giữ phím Trang chính</string>
     <string name="navigation_bar_home_double_tap_title">Hành động nhấn phím Trang chính hai lần</string>

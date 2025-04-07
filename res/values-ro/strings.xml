@@ -208,8 +208,6 @@
     <string name="navigation_bar_invert_layout_title">Inversare aspect</string>
     <string name="navigation_bar_invert_layout_summary">Inversează aspectul barei de navigare și alte elemente, cum ar fi comutatorul IME</string>
     <string name="navigation_bar_left_summary">Pune bara de navigare în partea stângă a ecranului în modul peisaj</string>
-    <string name="navigation_bar_arrow_keys_title">Arată butoanele de direcție în timp ce tastați</string>
-    <string name="navigation_bar_arrow_keys_summary">Arată butoanele de cursor stânga şi dreapta în timp ce tastaţi. Înlocuieşte comutatorul IME.</string>
     <string name="navigation_bar_back_long_press_title">Acțiune apăsare lungă Înapoi</string>
     <string name="navigation_bar_home_long_press_title">Acțiunea apăsării lungi pe Acasă</string>
     <string name="navigation_bar_home_double_tap_title">Acțiunea apăsării duble pe Acasă</string>

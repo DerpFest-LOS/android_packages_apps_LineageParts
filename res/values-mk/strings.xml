@@ -167,8 +167,6 @@
     <string name="disable_navkeys_summary">Овозможи лента за навигација на екранот и оневозможете ги хардверските копчиња</string>
     <string name="navigation_bar_category">Навигациска лента</string>
     <string name="navigation_bar_left_summary">Ставете ја лентата за навигација на левата страна на екранот во режим на пејзаж</string>
-    <string name="navigation_bar_arrow_keys_title">Прикажи ги копчињата со стрелки додека пишувате</string>
-    <string name="navigation_bar_arrow_keys_summary">Приказ на лево и десно курсорски копчиња додека пишувате. Преклопува преклопник за IME.</string>
     <string name="navigation_bar_home_long_press_title">Акција за долго притискање на домашно копче</string>
     <string name="navigation_bar_home_double_tap_title">Акција за двојно притискање на домашно копче</string>
     <string name="power_menu_title">Мени за напојување</string>

@@ -188,8 +188,6 @@
     <string name="navigation_bar_invert_layout_title">Käännä asettelu</string>
     <string name="navigation_bar_invert_layout_summary">Kääntää navigointipalkin ja muiden, kuten syöttötavan painikkeen asettelun</string>
     <string name="navigation_bar_left_summary">Siirtää navigointipalkin näytön vasempaan reunaan vaaka-asennossa</string>
-    <string name="navigation_bar_arrow_keys_title">Näytä nuolinäppäimet kirjottaessa</string>
-    <string name="navigation_bar_arrow_keys_summary">Näytä vasen ja oikea nuolinäppäin kirjoittaessa. Ohittaa syöttötavan valinnan.</string>
     <string name="navigation_bar_back_long_press_title">Takaisin-näppäimen pitkän painalluksen tehtävä</string>
     <string name="navigation_bar_home_long_press_title">Kotinäppäimen pitkän painalluksen tehtävä</string>
     <string name="navigation_bar_home_double_tap_title">Kotinäppäimen kaksoisnapautuksen tehtävä</string>

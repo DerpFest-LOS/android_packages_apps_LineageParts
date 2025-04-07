@@ -207,8 +207,6 @@
     <string name="navigation_bar_invert_layout_title">反轉佈局</string>
     <string name="navigation_bar_invert_layout_summary">反轉導覽列和其他項目的版面配置，例如輸入法選擇器</string>
     <string name="navigation_bar_left_summary">橫向模式下將導覽列置於螢幕左側</string>
-    <string name="navigation_bar_arrow_keys_title">輸入時顯示方向鍵</string>
-    <string name="navigation_bar_arrow_keys_summary">輸入時顯示游標鍵。取代輸入法切換器。</string>
     <string name="navigation_bar_back_long_press_title">對返回按鈕長按時的行為</string>
     <string name="navigation_bar_home_long_press_title">主畫面鍵長按動作</string>
     <string name="navigation_bar_home_double_tap_title">主畫面輕觸兩下動作</string>

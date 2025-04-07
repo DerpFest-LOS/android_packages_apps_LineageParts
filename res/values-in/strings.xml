@@ -53,6 +53,7 @@
     <string name="charging_control_mode_title">Mode pengisian daya</string>
     <string name="charging_control_mode_auto_title">Jadwal otomatis</string>
     <string name="charging_control_start_time_title">Waktu mulai</string>
+    <string name="charging_control_limit_title">Batas</string>
     <string name="battery_light_title">Lampu baterai</string>
     <string name="battery_light_enable_title">Aktifkan lampu baterai</string>
     <string name="battery_low_pulse_title">Berkedip saat baterai lemah</string>
@@ -193,8 +194,6 @@
     <string name="navigation_bar_category">Bar Navigasi</string>
     <string name="navigation_bar_invert_layout_title">Balikkan tata letak</string>
     <string name="navigation_bar_left_summary">Tempatkan navigasi bar di sebelah kiri layar dalam mode lanskap</string>
-    <string name="navigation_bar_arrow_keys_title">Tampilkan tombol panah saat mengetik</string>
-    <string name="navigation_bar_arrow_keys_summary">Tampilkan tombol kursor kiri dan kanan saat mengetik. Menggantikan pengubah IME.</string>
     <string name="navigation_bar_back_long_press_title">Tindakan tekan lama tombol kembali</string>
     <string name="navigation_bar_home_long_press_title">Tindakan menekan lama home</string>
     <string name="navigation_bar_home_double_tap_title">Tindakan dua kali ketuk home</string>

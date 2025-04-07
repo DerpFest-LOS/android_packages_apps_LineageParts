@@ -149,7 +149,6 @@
     <string name="navigation_bar_invert_layout_title">Інвертаваць парадак кнопак</string>
     <string name="navigation_bar_invert_layout_summary">Інвертуе парадак кнопак панэлі навігацыі і іншых элементаў, такіх як пераключальнік IME</string>
     <string name="navigation_bar_left_summary">Адлюстроўваць панэль навігацыі злева ў альбомнай арыентацыі</string>
-    <string name="navigation_bar_arrow_keys_title">Паказваць стрэлкі падчас уводу тэксту</string>
     <string name="navigation_bar_app_switch_long_press_title">Дзеянне пры доўгім націску кнопкі «Нядаўнія»</string>
     <string name="power_menu_title">Меню кнопкі сілкавання</string>
     <string name="power_menu_screenshot_title">Здымак экрана</string>
