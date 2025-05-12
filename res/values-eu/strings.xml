@@ -401,7 +401,7 @@ Informazio hau gailuaren abio bakoitzean bidaltzen da.\n\nBidalitako informazioa
     <string name="touchscreen_gesture_settings_summary">Egin ukimen-pantailako keinuak ekintza azkarretarako</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Erantzun haptikoa</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Bibratu ukimen-pantailaren keinu bat antzematean</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Pasatu bi hatz behera</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Pasatu bi hatz behera</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Pasatu hatz bat gora</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Pasatu hatza gora Hasiera botoitik</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Pasatu hatz bat behera</string>

@@ -461,7 +461,7 @@
     <string name="touchscreen_gesture_settings_summary">様々なタッチスクリーンジェスチャーですばやくアクションを実行します</string>
     <string name="touchscreen_gestures_haptic_feedback_title">タッチ操作バイブ</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">タッチスクリーンジェスチャーを検出したときにバイブする</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">二本指で下にスライド</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">二本指で下にスライド</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">一本指で上にスライド</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">ホームボタンから上方向にスワイプ</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">一本指で下にスライド</string>

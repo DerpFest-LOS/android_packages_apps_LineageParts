@@ -442,7 +442,7 @@
     <string name="touchscreen_gesture_settings_summary">Framkvæma ýmsar bendingar á snertiskjá fyrir flýtiaðgerðir</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Snertiskynssvörun (haptic)</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Titra þegar snertiskjábending hefur verið skynjuð</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Strjúktu niður með tveimur fingrum</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Strjúktu niður með tveimur fingrum</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Strjúktu upp með einum fingri</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Strjúktu upp frá heimahnappnum</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Strjúktu niður með einum fingri</string>

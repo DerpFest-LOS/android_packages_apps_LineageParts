@@ -394,7 +394,7 @@
     <string name="touchscreen_gesture_settings_summary">ತ್ವರಿತ ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಸ್ಪರ್ಶಪರದೆ ಮೇಲೆ ವಿವಿಧ ಸನ್ನೆಗಳನ್ನು ಮಾಡು</string>
     <string name="touchscreen_gestures_haptic_feedback_title">ಸ್ಪಾರ್ಶ ಪ್ರತಿಕ್ರಿಯೆ</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">ಒಂದು ಸ್ಪರ್ಶಪರದೆ ಸನ್ನೆ ಪತ್ತೆಯಾದಾಗ ಕಂಪಿಸು</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">ಎರಡು ಬೆರಳಿಂದ ಕೆಳಕ್ಕೆ ಸೆಳೆ</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">ಎರಡು ಬೆರಳಿಂದ ಕೆಳಕ್ಕೆ ಸೆಳೆ</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">ಒಂದು ಬೆರಳಿಂದ ಮೇಲಕ್ಕೆ ಸೆಳೆ</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">ತವರು ಗುಂಡಿಯಿಂದ ಮೇಲಕ್ಕೆ ಸೆಳೆ</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">ಒಂದು ಬೆರಳಿಂದ ಕೆಳಕ್ಕೆ ಸೆಳೆ</string>

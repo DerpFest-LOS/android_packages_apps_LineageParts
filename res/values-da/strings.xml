@@ -440,7 +440,7 @@
     <string name="touchscreen_gesture_settings_summary">Udfør forskellige bevægelser på touchskærmen for hurtige handlinger</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Berøringsvibration</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Vibrér, når en bevægelse til touchskærm registreres</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Stryg nedad med to fingre</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Stryg nedad med to fingre</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Stryg opad med én finger</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Stryg opad fra hjem-knappen</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Stryg nedad med én finger</string>

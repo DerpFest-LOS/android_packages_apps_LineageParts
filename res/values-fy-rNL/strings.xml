@@ -404,7 +404,7 @@
     <string name="touchscreen_gesture_settings_summary">Skermgebearen brûke foar flugge aksjes</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Trille</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Trille wannear in skermgebear detektearre wurdt</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Omleech feie mei twa fingers</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Omleech feie mei twa fingers</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Omheech feie mei ien finger</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Omheech feie fan de thúsknop ôf</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Omleech feie mei ien finger</string>

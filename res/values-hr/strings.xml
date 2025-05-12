@@ -407,7 +407,7 @@
     <string name="touchscreen_gesture_settings_summary">Razne geste zaslona za brze radnje</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Dodirna povratna informacija</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Vibriraj kada se otkrije gesta na dodirnom zaslonu</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Prijeđite prema dolje dvama prstima</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Prijeđite prema dolje dvama prstima</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Prijeđite prema gore jednim prstom</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Prijeđite prema dolje jednim prstom</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Prijeđite ulijevo jednim prstom</string>

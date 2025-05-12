@@ -461,7 +461,7 @@
     <string name="touchscreen_gesture_settings_summary">ეკრანზე სხვადასხვაგვარი შეხება, სწრაფი მოქმედებებისთვის</string>
     <string name="touchscreen_gestures_haptic_feedback_title">საპასუხო შეგრძნება</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">ვიბრაცია ეკრანზე შეხების ჟესტის აღმოჩენისას</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">ჩამოუსვით ქვემოთ ორი თითით</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">ჩამოუსვით ქვემოთ ორი თითით</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">აუსვით ზემოთ ორი თითით</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">ზემოთ ასმა მთავარი ღილაკიდან</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">ჩამოუსვით ქვემოთ ერთი თითით</string>

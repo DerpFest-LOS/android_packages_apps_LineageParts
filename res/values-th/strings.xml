@@ -413,7 +413,7 @@
     <string name="touchscreen_gesture_settings_summary">ใช้ท่าทางสัมผัสรูปแบบต่าง ๆ เพื่อการทำงานที่รวดเร็วขึ้น</string>
     <string name="touchscreen_gestures_haptic_feedback_title">สั่นเมื่อแตะ</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">สั่นเมื่อท่าทางสัมผัสหน้าถูกตรวจพบ</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">กวาดนิ้วลงด้วยสองนิ้ว</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">กวาดนิ้วลงด้วยสองนิ้ว</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">กวาดนิ้วขึ้นด้วยนิ้วเดียว</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">ปัดขึ้นจากปุ่มโฮม</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">กวาดนิ้วลงด้วยนิ้วเดียว</string>

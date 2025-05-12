@@ -455,7 +455,7 @@
     <string name="touchscreen_gesture_settings_summary">Perfformio ystumiau amrywiol ar y sgrin gyffwrdd am weithredoedd cyflym</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Adborth habtig</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Dirgrynu pan fo ystumiad sgrin gyffwrdd yn cael ei synhwyro</string>
-    <string name="touchscreen_gesture_two_finger_down_swipe_title">Llusgo i lawr gyda dau fys</string>
+    <string name="touchscreen_gesture_two_fingers_down_swipe_title">Llusgo i lawr gyda dau fys</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Llusgo i fyny gydag un bys</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Llusgo i fyny o\'r botwm cartref</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Llusgo i lawr gydag un bys</string>
