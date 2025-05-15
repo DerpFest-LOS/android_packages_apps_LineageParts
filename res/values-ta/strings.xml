@@ -62,6 +62,7 @@
     <string name="color_blue_title">நீலம்</string>
     <string name="adj_hue_title">நிறச்சாயல்</string>
     <string name="adj_saturation_title">நிறைசெறிவு</string>
+    <string name="navigation_bar_invert_layout_summary">வழிநடத்தும் பட்டியின் தளவமைப்பைத் தலைகீழாக மாற்றுகிறது</string>
     <string name="torch_long_press_power_timeout_1min">1 நிமிடம்</string>
     <string name="torch_long_press_power_timeout_2min">2 நிமிடம்</string>
     <string name="torch_long_press_power_timeout_5min">5 நிமிடம்</string>
