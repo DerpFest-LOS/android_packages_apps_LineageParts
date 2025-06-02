@@ -23,6 +23,7 @@ public class KeyHandler implements DeviceKeyHandler {
     private static Map<Integer, String> KEYMAP;
 
     private final Context mContext;
+    private boolean mInPocket;
 
     public KeyHandler(Context context) {
         mContext = context;
@@ -36,8 +37,10 @@ public class KeyHandler implements DeviceKeyHandler {
                 .collect(Collectors.toMap(i -> keycodes[i], i -> packages[i]));
     }
 
+    @Override
     public KeyEvent handleKeyEvent(KeyEvent event) {
-        if (event.getAction() != KeyEvent.ACTION_UP || !hasSetupCompleted()) {
+        if (event.getAction() != KeyEvent.ACTION_UP || !hasSetupCompleted()
+             || mInPocket) {
             return event;
         }
 
@@ -50,6 +53,11 @@ public class KeyHandler implements DeviceKeyHandler {
         }
 
         return event;
+    }
+
+    @Override
+    public void onPocketStateChanged(boolean inPocket) {
+        mInPocket = inPocket;
     }
 
     private boolean hasSetupCompleted() {
