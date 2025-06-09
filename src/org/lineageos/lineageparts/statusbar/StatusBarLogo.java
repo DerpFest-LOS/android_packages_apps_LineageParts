@@ -21,6 +21,8 @@ import java.util.Set;
 public class StatusBarLogo extends SettingsPreferenceFragment
         implements Searchable {
 
+    private static final String STATUSBAR_LOGO_SETTINGS = "status_bar_logo";
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
