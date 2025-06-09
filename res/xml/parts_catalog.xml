@@ -85,4 +85,9 @@
           android:title="@string/trust_title"
           android:fragment="org.lineageos.lineageparts.trust.TrustPreferences"
           lineage:xmlRes="@xml/trust_preferences" />
+
+    <part android:key="network_traffic"
+          android:title="@string/network_traffic_settings_title"
+          android:fragment="org.lineageos.lineageparts.statusbar.NetworkTrafficSettings"
+          lineage:xmlRes="@xml/network_traffic_settings" />
 </parts-catalog>
