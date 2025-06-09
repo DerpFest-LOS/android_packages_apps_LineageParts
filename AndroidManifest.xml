@@ -257,5 +257,37 @@
             android:excludeFromRecents="true"
             android:label="@string/profile_select" />
 
+        <!-- Network traffic settings (System category) -->
+        <activity-alias
+            android:name=".statusbar.NetworkTrafficSettings"
+            android:exported="true"
+            android:label="@string/network_traffic_settings_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+                <action android:name="org.lineageos.lineageparts.NETWORK_TRAFFIC_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        <!-- <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.system" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_statusbar" />
+            <meta-data
+                android:name="com.android.settings.icon_tintable"
+                android:value="true" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-254" />
+            <meta-data
+                android:name="com.android.settings.profile"
+                android:value="primary_profile_only" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/summary_empty" /> -->
+        </activity-alias>
+
     </application>
 </manifest>
